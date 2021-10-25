@@ -1,4 +1,5 @@
-console.log(longestStringForLoop(['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.']));
+const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
+console.log(longestStringForLoop(avengers));
 
 function longestStringForLoop(arr) {
   let word = ""; //Esta variable sirve para ir almacenando y comparando cada string, cada nombre de heroe en cada vuelta
